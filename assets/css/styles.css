@@ -1,0 +1,381 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.diferenca{ 
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.header {
+    background-color: #0A0332;
+
+}
+
+.header .container {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.list {
+    display: flex;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.list li:hover {
+    color: #00D4FF;
+}
+
+.button {
+    display: flex;
+    background: linear-gradient(90deg, #2A00B7, lightgreen);
+    border-radius: 30px;
+    padding: 12px 25px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.tads {
+    color: lightgreen;
+}
+
+.logo {
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    font-weight: bold;
+    
+}
+
+.hero {
+    background-image: url(/assets/images/hero-11.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 140px 0px;
+    color: #FFFFFF;
+}
+
+.hero .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+}
+
+.container h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.h2hero {
+    font-size: 2rem;
+    color: #00D4FF;
+    margin: 0;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.tags li {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);    
+    border-radius: 50px;     
+    padding: 8px 15px;    
+    font-size: 0.9rem;
+    color: #FFFFFF;
+}
+
+.estatistica {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+}
+
+.estatistica li {
+    color: #00D4FF;
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.estatistica li span {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.titulo_sobre {
+    margin: 0;
+    display: flex;
+    color: #2A00B7;
+    font-weight: bold;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.paragrafo_cinzac {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    color: #6B7280;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.sobre_h3 {
+    margin: 0;
+    color: #2A00B7;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.paragrafo_cinza {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.lista_sobre {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.sobre_1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+    gap: 20px;
+}
+
+.sobre_2 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.sobre_coluna {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    gap: 30px;
+}
+
+.imagem_h5 {
+    padding: 20px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #2A00B7, lightgreen);
+}
+
+.corretinho {
+    padding: 0 4px;
+    border-radius: 50%;
+    background-color: #2A00B7;
+    color: #FFFFFF;
+}
+
+.pacotes {
+    background-color: #F5F7FF;
+}
+
+.cards_pacotes {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 40px 30px;
+    max-width: 350px;
+    gap: 10px;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.titu_card {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #2A00B7;
+    font-weight: bold;
+}
+
+.preco {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.cont_card {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.corretinhoo {
+    color: #00D4FF;
+}
+
+.cartoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cartao {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: 0.3s ease;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    flex-basis: calc(50% - 20px);
+    background-color: #FFFFFF;
+}
+
+.cartao:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+.titu_pacote {
+    margin: 0;
+    color: #2A00B7;
+    font-size: 1.3rem;
+}
+
+.para_pacote {
+    margin: 0;
+    color: #6B7280;
+}
+
+.fundo {
+    background-color: #0A0332;
+}
+
+.lista_rodape {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.lista_rodape li:hover {
+    color: #00D4FF;
+}
+
+.titu_rodape {
+    color: #00D4FF;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.img_rodape{
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.img_rodape a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.img_rodape img {
+    width: 20px;
+    height: 20px;
+}
+
+.img_rodape a:hover {
+    background-color: #00D4FF;
+}
+
+
+.finalmente_acabou {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.fot1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(33% - 60px);
+}
+
+.separacao {
+    margin-top: 100px;
+}
+
